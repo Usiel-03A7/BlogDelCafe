@@ -163,6 +163,10 @@ img {
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 2rem;
+    border: none;
+}
+.boton:hover {
+    cursor: pointer;
 }
 @media (min-width: 768px) {
     .boton {
@@ -254,4 +258,32 @@ background-color: var(--negro);
     height: 40rem;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.formulario {
+    background-color: var(--blanco);
+    margin: -3rem auto 0 auto ;
+    width: 95%;
+    padding: 5rem;
+}
+
+.campo {
+ display: flex;
+ margin-bottom: 2rem;
+ 
+}
+
+.campo__label {
+ flex: 0 0 9rem;
+ text-align: right;
+ padding-right: 2rem;
+ 
+}
+
+.campo__field {
+    flex: 1;
+    border: solid 1px var(--gris)
+}
+
+.campo__field--textarea {
+ height: 20rem;
 }
