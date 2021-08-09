@@ -72,7 +72,13 @@ img {
 }
 
 /* Header*/
-
+/*Para hacer más ágil la página*/
+.webp , .header {
+    background-image: url("/img/banner.jpg");
+}
+.no-webp {
+    background-image: url("/img/banner.jpg");
+}
 .header {
     background-image: url("/img/banner.jpg");
     height: 60rem;
